@@ -1,3 +1,138 @@
+/* Obnoxious styling for icon fonts */
+i {
+  display: inline;
+}
+
+.fa {
+  font-size: calc(1em + 3vw);
+  padding: .15em .2em;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .4);
+  margin: 0 .25em;
+  box-shadow: .1em .1em .1em rgba(0, 0, 0, .4);
+  transition: all .5s ease;
+}
+
+.fa-facebook  {
+  color: #4099FF;
+  transition: all .5s ease;
+}
+
+.fa-facebook:hover {
+  color: white;
+  background: #4099FF;
+  transition: all .5s ease;
+}
+
+.fa-github {
+  color: #333;
+}
+
+.fa-github:hover {
+  color: white;
+  background: #333;
+  transition: all .5s ease;
+}
+
+.fa-dribbble {
+  color: #ea4c89;
+}
+
+.fa-dribbble:hover {
+  color: white;
+  background: #ea4c89;
+  transition: all .5s ease;
+}
+
+.fa-codepen {
+  color: black;
+}
+
+.fa-codepen:hover {
+  color: white;
+  background: black;
+  transition: all .5s ease;
+}
+
+.fa-stack-overflow {
+  color: #fe7a15;
+}
+
+.fa-stack-overflow:hover {
+  color: white;
+  background: #fe7a15;
+  transition: all .5s ease;
+}
+
+.devicons {
+  font-size: 4em;
+  color: #000;
+  margin: 0 .25em;
+}
+
+.devicons-html5 {
+  color: #E34C26;
+}
+
+.devicons-css3 {
+  color: #0b73b8;
+}
+
+.devicons-bootstrap {
+  color: #401F7C;
+}
+
+.devicons-wordpress {
+  color: #21759b;
+}
+
+.devicons-javascript {
+  background: #f0db4f;
+}
+
+.devicons-jquery {
+  color: #0769AD;
+}
+
+.devicons-angular {
+  color: #e62a39;
+}
+
+.devicons-nodejs {
+  color: #8CC84B;
+  font-size: 8em;
+}
+
+.devicons-npm {
+  color: #cb3837;
+}
+
+.devicons-sublime {
+  color: #ff8100;
+}
+
+.devicons-cloud9 {
+  color: #237cc5;
+}
+
+.devicons-vim {
+  color: #019833;
+}
+
+.devicons-heroku {
+  color: #6567a5;
+}
+
+.devicons-git {
+  color: #ee513b;
+}
+
+.devicons-react {
+  color: #61dafb;
+  border-radius: 50%;
+  background: #111;
+}
+
 /* Font icon colors, etc., are tedious and reside in another stylesheet */
 * {
   box-sizing: border-box;
@@ -111,47 +246,47 @@ a:hover {
 
 #card2 {
   background-color: black;
-  background-image: 
-    radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px), 
-    radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px), 
-    radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px), 
+  background-image:
+    radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px),
     radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
-  background-size: 
-    550px 550px, 
-    350px 350px, 
-    250px 250px, 
+  background-size:
+    550px 550px,
+    350px 350px,
+    250px 250px,
     150px 150px;
-  background-position: 
-    0 0, 
-    40px 60px, 
-    130px 270px, 
+  background-position:
+    0 0,
+    40px 60px,
+    130px 270px,
     70px 100px;
   margin: 20em 0 35em 0;
 }
 
 #card3 {
   background-color: #269;
-  background-image: 
-    linear-gradient(white 2px, transparent 2px), 
-    linear-gradient(90deg, white 2px, transparent 2px), 
-    linear-gradient(rgba(255, 255, 255, .3) 1px, transparent 1px), 
+  background-image:
+    linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, .3) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, .3) 1px, transparent 1px);
-  background-size: 
-    100px 100px, 
-    100px 100px, 
-    20px 20px, 
+  background-size:
+    100px 100px,
+    100px 100px,
+    20px 20px,
     20px 20px;
-  background-position: 
-    -2px -2px, 
-    -2px -2px, 
-    -1px -1px, 
+  background-position:
+    -2px -2px,
+    -2px -2px,
+    -1px -1px,
     -1px -1px;
   transform: translateZ(-1px) scale(2);
   z-index: -1;
 }
 
 #card4 {
-  background: url(//lh3.googleusercontent.com/DvtKuq7I2VfPS-bTXNM3KY5eEvsm5SbjvTszJR0lWs9u=w1377-h914-no) center/cover;
+  background: url(https://1.bp.blogspot.com/-JfRUstf-xfQ/YIZpLT5DutI/AAAAAAAADJw/TwSh4BnSPrACy-7rdB7XaKeLSmusJ6vIwCLcBGAsYHQ/s1376/mac-ipad.jpg) center/cover;
   margin-top: 35em;
 }
 
@@ -162,7 +297,7 @@ a:hover {
 
 .app {
   width: 300px;
-  height: 225px; 
+  height: 225px;
   max-width: 50vw;
   margin: .5em;
   box-shadow: .3em .3em .3em rgba(0, 0, 0, .4);
@@ -190,6 +325,8 @@ span.title span {
 .app span.title:hover {
   opacity: 1;
 }
+
+
 
 span.title {
   background: rgba(0,0,0,0.5);
